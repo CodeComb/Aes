@@ -7,8 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3010F7AD-E62
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26FE697F-042C-40D2-A4FE-E6256E7B36CE}"
 	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
+		build.cmd = build.cmd
+		build.sh = build.sh
 		global.json = global.json
+		LICENSE = LICENSE
+		makefile.shade = makefile.shade
 		NuGet.Config = NuGet.Config
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeComb.Security.Aes.Tests", "test\CodeComb.Security.Aes.Tests\CodeComb.Security.Aes.Tests.xproj", "{FE4A04CF-46D9-4FA2-BC9E-303DF87AD699}"
