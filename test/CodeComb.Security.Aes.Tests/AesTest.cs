@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Framework.DependencyInjection;
 using Xunit;
 
 namespace CodeComb.Security.Aes.Tests

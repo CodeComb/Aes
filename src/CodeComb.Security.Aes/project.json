@@ -1,6 +1,6 @@
 ﻿{
   "title": "CodeComb.Security.Aes",
-  "version": "2.0.0-*",
+  "version": "2.0.0-beta8",
   "description": "ASP.Net vNext AES Crypto Library",
   "copyright": "Harbin Code Comb Technology Co.,Ltd",
   "authors": [ "AmamiyaYuuko" ],
@@ -10,7 +10,7 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "Microsoft.Extensions.DependencyInjection": "1.0.0-*"
+    "Microsoft.Framework.DependencyInjection": "1.0.0-beta8"
   },
 
   "frameworks": {
