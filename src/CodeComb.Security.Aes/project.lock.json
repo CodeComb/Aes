@@ -2,7 +2,7 @@
   "locked": false,
   "version": 2,
   "targets": {
-    "DNX,Version=v4.5.1": {
+    ".NETFramework,Version=v4.5.1": {
       "Microsoft.Extensions.DependencyInjection/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -377,7 +377,7 @@
         }
       }
     },
-    "DNX,Version=v4.5.1/win7-x86": {
+    ".NETFramework,Version=v4.5.1/win7-x86": {
       "Microsoft.Extensions.DependencyInjection/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -412,7 +412,7 @@
         }
       }
     },
-    "DNX,Version=v4.5.1/win7-x64": {
+    ".NETFramework,Version=v4.5.1/win7-x64": {
       "Microsoft.Extensions.DependencyInjection/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2528,7 +2528,7 @@
     "": [
       "Microsoft.Extensions.DependencyInjection >= 1.0.0-rc1-final"
     ],
-    "DNX,Version=v4.5.1": [],
+    ".NETFramework,Version=v4.5.1": [],
     ".NETPlatform,Version=v5.4": [
       "Microsoft.CSharp >= 4.0.1-beta-23516",
       "System.Collections >= 4.0.11-beta-23516",
