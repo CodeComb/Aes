@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CodeComb.Security.Aes;
 
-namespace Microsoft.Framework.DependencyInjection
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class AesCryptoExtensions
     {

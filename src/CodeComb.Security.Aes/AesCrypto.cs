@@ -56,7 +56,7 @@ namespace CodeComb.Security.Aes
             byte[] byteArray = Convert.FromBase64String(encryptStr);
 
             string decrypt = null;
-#if DNXCORE50
+#if DOTNET5_4
             var aes = System.Security.Cryptography.Aes.Create();
 #else
             var aes = Rijndael.Create();
@@ -74,7 +74,7 @@ namespace CodeComb.Security.Aes
                 }
             }
             catch { }
-#if !DNXCORE50
+#if !DOTNET5_4
             aes.Clear();
 #endif
 
@@ -88,7 +88,7 @@ namespace CodeComb.Security.Aes
             byte[] byteArray = Encoding.UTF8.GetBytes(plainStr);
 
             string encrypt = null;
-#if DNXCORE50
+#if DOTNET5_4
             var aes = System.Security.Cryptography.Aes.Create();
 #else
             var aes = Rijndael.Create();
@@ -106,7 +106,7 @@ namespace CodeComb.Security.Aes
                 }
             }
             catch { }
-#if !DNXCORE50
+#if !DOTNET5_4
             aes.Clear();
 #endif
             return encrypt;
