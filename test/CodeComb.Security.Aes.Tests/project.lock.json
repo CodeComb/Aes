@@ -5,7 +5,7 @@
     "DNX,Version=v4.5.1": {
       "CodeComb.Security.Aes/2.0.0-rc1-final": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
+        "framework": "DNX,Version=v4.5.1",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
         }
@@ -1091,7 +1091,7 @@
     "DNX,Version=v4.5.1/win7-x86": {
       "CodeComb.Security.Aes/2.0.0-rc1-final": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
+        "framework": "DNX,Version=v4.5.1",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
         }
@@ -1308,7 +1308,7 @@
     "DNX,Version=v4.5.1/win7-x64": {
       "CodeComb.Security.Aes/2.0.0-rc1-final": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.5.1",
+        "framework": "DNX,Version=v4.5.1",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
         }
