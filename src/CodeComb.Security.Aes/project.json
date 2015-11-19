@@ -2,7 +2,7 @@
   "title": "CodeComb.Security.Aes",
   "version": "2.0.0-*",
   "description": "ASP.Net vNext AES Crypto Library",
-  "copyright": "Harbin Code Comb Technology Co.,Ltd",
+  "copyright": "Harbin Code Comb Technology Co., Ltd.",
   "authors": [ "AmamiyaYuuko" ],
   "tags": [ "Localization" ,"vNext", "ASP.Net", "MVC" ],
   "iconUrl": "http://www.1234.sh/images/logo.png",
@@ -14,16 +14,15 @@
   },
 
   "frameworks": {
-    "net46": { },
-    "dnx451": { },
-    "dnxcore50": {
+    "net451": { },
+    "dotnet5.4": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-*",
         "System.Collections": "4.0.11-*",
         "System.Linq": "4.0.1-*",
         "System.Runtime": "4.0.21-*",
         "System.Threading": "4.0.11-*",
-        "System.Security.Cryptography.Encryption.Aes": "4.0.0-*"
+        "System.Security.Cryptography.Algorithms": "4.0.0-*"
       }
     }
   }
